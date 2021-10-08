@@ -1,0 +1,194 @@
+.container-1, .container-2, .container-3 {
+    display:flex;
+    flex-direction: row;
+}
+
+$color1: red;
+$color2:blue;
+$color3: green;
+$colorletter: white;
+
+.box {
+    margin-right: 15px;
+    border: 1px solid black;
+    padding: 30px 5px;
+    margin-bottom: 15px;
+}
+
+.container-1 >.darken-4 {
+    background-color: darken($color1, 25%);
+    color: darken($colorletter, 25%);
+    
+}
+
+.container-1 > .darken-3 {
+    background-color: darken($color1, 20%);
+    color: darken($colorletter, 20%);
+    
+}
+
+.container-1 >.darken-2 {
+    background-color: darken($color1, 15%);
+    color: darken($colorletter, 15%);
+    
+}
+.container-1 >.darken-1 {
+    background-color: darken($color1, 10%);
+    color: darken($colorletter, 10%);
+    
+}
+
+.container-1 >.baseocolor {
+    background-color:$color1;
+    color:$colorletter;
+    
+}
+
+.container-1 > .lighten-1 {
+    color: darken($colorletter, 10%);
+    background-color: lighten($color1, 10%);
+}
+
+.container-1 > .lighten-2 {
+    color: darken($colorletter, 20%);
+    background-color: lighten($color1, 15%);
+
+}
+
+.container-1 > .lighten-3 {
+    color: darken($colorletter, 30%);
+    background-color: lighten($color1, 20%);
+}
+
+.container-1 > .lighten-4 {
+    color: darken($colorletter, 40%);
+    background-color: lighten($color1, 25%);
+
+}
+
+
+
+
+
+.container-2 > div {
+    margin-right: 15px;
+    border: 1px solid black;
+    padding: 30px 5px;
+    margin-bottom: 15px;   
+}
+
+
+.container-2 >.darken-4 {
+    background-color: darken($color2, 25%);
+    color: darken($colorletter, 25%);
+    
+}
+
+.container-2 > .darken-3 {
+    background-color: darken($color2, 20%);
+    color: darken($colorletter, 20%);
+    
+}
+
+.container-2 >.darken-2 {
+    background-color: darken($color2, 15%);
+    color: darken($colorletter, 15%);
+    
+}
+.container-2 >.darken-1 {
+    background-color: darken($color2, 10%);
+    color: darken($colorletter, 10%);
+    
+}
+
+.container-2 >.baseocolor {
+    background-color:$color2;
+    color:$colorletter;
+    
+}
+
+.container-2 > .lighten-1 {
+    color: darken($colorletter, 10%);
+    background-color: lighten($color2, 10%);
+}
+
+.container-2 > .lighten-2 {
+    color: darken($colorletter, 20%);
+    background-color: lighten($color2, 15%);
+
+}
+
+.container-2 > .lighten-3 {
+    color: darken($colorletter, 30%);
+    background-color: lighten($color2, 20%);
+}
+
+.container-2 > .lighten-4 {
+    color: darken($colorletter, 40%);
+    background-color: lighten($color2, 25%);
+
+}
+
+
+.container-3 > div {
+    margin-right: 15px;
+    border: 1px solid black;
+    padding: 30px 5px;
+    margin-bottom: 15px;  
+}
+
+.container-3 >.darken-4 {
+    background-color: darken($color3, 25%);
+    color: darken($colorletter, 25%);
+    
+}
+
+.container-3 > .darken-3 {
+    background-color: darken($color3, 20%);
+    color: darken($colorletter, 20%);
+    
+}
+
+.container-3 >.darken-2 {
+    background-color: darken($color3, 15%);
+    color: darken($colorletter, 15%);
+    
+}
+.container-3 >.darken-1 {
+    background-color: darken($color3, 10%);
+    color: darken($colorletter, 10%);
+    
+}
+
+.container-3 >.baseocolor {
+    background-color:$color3;
+    color:$colorletter;
+    
+}
+
+
+
+.container-3 > .lighten-1 {
+    color: darken($colorletter, 10%);
+    background-color: lighten($color3, 10%);
+}
+
+.container-3 > .lighten-2 {
+    color: darken($colorletter, 20%);
+    background-color: lighten($color3, 15%);
+
+}
+
+.container-3 > .lighten-3 {
+    color: darken($colorletter, 30%);
+    background-color: lighten($color3, 20%);
+}
+
+.container-3 > .lighten-4 {
+    color: darken($colorletter, 40%);
+    background-color: lighten($color3, 25%);
+
+}
+
+
+

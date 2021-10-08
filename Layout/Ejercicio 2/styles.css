@@ -1,0 +1,70 @@
+.temas {
+    width: 720px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+
+.box {
+    border: 1px solid #777777;
+
+    padding: 15px 15px 15px 30px;
+}
+
+.base, .important, .warning, .shadow-box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nobox {
+    margin-top: 15px;
+}
+
+.shadow {
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 15px 15px 15px 30px;
+    border-radius: 5px;
+    box-shadow: -5px 5px #777777 }
+
+.caja1 {
+    background: red;
+}
+
+.font1 {
+    font-weight: 600;
+}
+
+.font1 {
+    font-style: italic;
+}
+.caja2 {
+    background: #812525
+}
+
+.caja3 {
+    background: #ffb9b9;
+}
+
+
+.caja4 {
+    background: blue;
+}
+
+
+.caja5 {
+    background: #28286a;
+}
+
+.caja6 {
+    background: #0fdbdb;
+}
+
+.shadow1 {
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 15px 15px 15px 30px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #777777;
+}
